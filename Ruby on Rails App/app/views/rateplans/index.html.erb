@@ -1,0 +1,9 @@
+<h1>TARİFELER</h1>
+<% @rateplans.each do |rateplan| %>
+	Tarife Adı : <%= rateplan.name %> <br>
+	Açıklama : <%= rateplan.description %> <br>
+	Fiyatı : <%= rateplan.price %> <br>
+	Veri Miktarı :  <%= rateplan.data_amount %> <br>
+	Dakika Miktarı :  <%= rateplan.voice_amount %> <br>
+	Sms Miktarı :  <%= rateplan.sms_amount %> <br> <br>
+<% end %>

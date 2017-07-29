@@ -1,0 +1,11 @@
+<h1>BAKİYE YÜKLE</h1>
+<%= form_for(@wallet, :url => wallets_add_balance_path) do  |f| %>
+	Amount <br>	<%= f.text_field :amount  %> <br>
+		<%= f.fields_for @msisdn_wallet do |ff| %>
+	Phone <br>			<%= ff.text_field :msisdn_number %> <br>
+		<% end %>
+		<%= f.submit %> <br>
+<% end %>
+		  
+
+  

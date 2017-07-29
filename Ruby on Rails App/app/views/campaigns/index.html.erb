@@ -1,0 +1,6 @@
+<h1>KAMPANYALAR</h1>
+<% @campaigns.each do |campaign| %>
+	Kampanya Adı :  <%= campaign.name %> <br>
+	Açıklama :  <%= campaign.description %> <br>
+	Katılım Şartları :  <%= campaign.rules %> <br> <br>
+<% end %>

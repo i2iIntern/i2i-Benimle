@@ -1,0 +1,25 @@
+phones ==> contracts  1 - customer - 1
+
+
+left ==> remaining
+eth - data_volume
+min - voice_volume
+
+msisdn
+co_id
+msisdn_number
+activation_time
+
+address 
+description
+customer_id
+type
+
+
+tmforum
+gsm billing er
+
+campaign_phone ==> campaign_contract
+
+
+phone_id ==> contract_id

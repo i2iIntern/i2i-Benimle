@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  remaining_data: 1
+  remaining_voice: 1
+  remaining_sms: 1
+  msisdn_id: 1
+  contract_id: 1
+
+two:
+  remaining_data: 1
+  remaining_voice: 1
+  remaining_sms: 1
+  msisdn_id: 1
+  contract_id: 1

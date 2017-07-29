@@ -1,0 +1,2 @@
+class Acticle < ApplicationRecord
+end

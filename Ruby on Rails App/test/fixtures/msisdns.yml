@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  msisdn_number: MyString
+  password: MyString
+  contract_id: 1
+  balance_id: 1
+  rateplan_id: 1
+
+two:
+  msisdn_number: MyString
+  password: MyString
+  contract_id: 1
+  balance_id: 1
+  rateplan_id: 1
