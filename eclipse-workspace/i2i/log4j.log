@@ -1,10 +1,10 @@
-Tem 29, 2017 3:52:06 PM i2i_benimle.dbi2iBenimle main
+Tem 29, 2017 4:16:44 PM i2i_benimle.dbi2iBenimle main
 INFO: ... Log starts here ...
-Tem 29, 2017 3:52:07 PM i2i_benimle.dbi2iBenimle readXml
+Tem 29, 2017 4:16:44 PM i2i_benimle.dbi2iBenimle readXml
 INFO: readXml function is called.
-Tem 29, 2017 3:52:07 PM i2i_benimle.dbi2iBenimle readXml
+Tem 29, 2017 4:16:44 PM i2i_benimle.dbi2iBenimle readXml
 INFO: readXml function finished succesfully.
-Tem 29, 2017 3:52:07 PM i2i_benimle.dbi2iBenimle getIpAddress
+Tem 29, 2017 4:16:44 PM i2i_benimle.dbi2iBenimle getIpAddress
 INFO: getIpAddress function is called.
-Tem 29, 2017 3:52:07 PM i2i_benimle.dbi2iBenimle getIpAddress
+Tem 29, 2017 4:16:44 PM i2i_benimle.dbi2iBenimle getIpAddress
 INFO: getIpAddress function is ended successfully. It returns the IP address of the host.

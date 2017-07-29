@@ -49,7 +49,6 @@ public class dbi2iBenimle{
 	private static Jdbc dbConnectionParams = new Jdbc();
 	
 	// This function will read xml file. The xml file should contain your Database information.
-	// xml dosyasýndan veritabaný bilgilerini okuyup ilgili class'a aktaran fonksiyon.
 	private static void readXml() {
 		log.info("readXml function is called.");
 		 try {
@@ -72,7 +71,6 @@ public class dbi2iBenimle{
 	}
 
 	// This function will take IP address of your computer and return it as a String.
-	// Bilgisayarýn veya Sunucunun IP Adresini alan fonksiyon.
 	private static String getIpAddress() {
 		log.info("getIpAddress function is called.");
 		try {
@@ -86,8 +84,7 @@ public class dbi2iBenimle{
 		}
 	}
 	
-	// This function tries to connect database using Jdbc class. 
-	// Oracle veritabaný'na baðlanmaya çalýþan fonksiyon. Baðlantýyý saðlarsa baðlantýnýn kendisini, baðlantýyý saðlayamazsa null döndürür. 
+	// This function tries to connect database using Jdbc class.  
 	private Connection dbConnectionTest() {
 		log.info("dbConnectionTest function is called.");
 		try{							
@@ -252,8 +249,6 @@ public class dbi2iBenimle{
 		}
 	}
 	
-	
-	// Eðer girilen telefon numarasý ve þifre doðru ise contract_id döndürür, aksi taktirde -1 döndürür.
 	@WebMethod
 	public int getContractId(@WebParam(name = "phoneNumber")String phoneNumber, @WebParam(name = "password")String password) {
 		log.info("getContractId function is called.");
@@ -279,7 +274,6 @@ public class dbi2iBenimle{
 		}	
 	}
 			
-	// Bütün kampanyalarý liste olarak dönen fonksiyon.
 	@WebMethod
 	public List<Campaign> getCampaign(){
 			log.info("getCampaign function is called.");
@@ -306,7 +300,6 @@ public class dbi2iBenimle{
 			}					
 		}
 		
-	// Girilen contract_id'ye ait kalan kullaným deðerlerini dönen fonksiyon.
 	@WebMethod
 	public Balance getBalance(@WebParam(name = "contractId")int contractId) {
 		log.info("getBalance function is called.");
@@ -335,7 +328,6 @@ public class dbi2iBenimle{
 		}								
 	}
 		
-	// Girilen contract_id'ye ait kullanýcýnýn bilgilerini dönen fonksiyon.
 	@WebMethod
 	public Customer getCustomerCredential(@WebParam(name = "contractId")int contractId) {
 		log.info("getCustomerCredential function is called.");
@@ -361,7 +353,6 @@ public class dbi2iBenimle{
 		}		
 	}
 		
-	// Girilen contract_id'ye ait kullanýcýnýn sahip olduðu kampanya bilgilerini dönen fonksiyon.
 	@WebMethod
 	public Tariff getRateplan(@WebParam(name = "contractId")int contractId){
 		log.info("getRateplan function is called.");
@@ -390,7 +381,6 @@ public class dbi2iBenimle{
 		}		
 	}
 			
-	// Bütün kampanya bilgilerini liste olarak dönen fonksiyon.
 	@WebMethod
 	public List<Tariff> getRateplanList(){
 		log.info("getRateplanList function is called.");
@@ -420,7 +410,6 @@ public class dbi2iBenimle{
 		}		
 	}
 			
-	// Girilen contract_id'ye ait kullanýcýnýn cüzdan bilgilerini dönen fonksiyon.
 	@WebMethod
 	public Wallet getCustomerWallet(@WebParam(name = "contractId")int contractId){
 			log.info("getCustomerWallet function is called.");
@@ -444,7 +433,6 @@ public class dbi2iBenimle{
 			}			
 		}
 		
-	// Girilen customer_id'ye ait kullanýcýnýn cüzdanýndaki parayý güncellemektedir.
 	@WebMethod
 	public int updateCustomerWallet(@WebParam(name = "amount")int amount, @WebParam(name = "msisdn")String msisdn){
 			log.info("updateCustomerWallet function is called.");		
