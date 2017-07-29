@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database_information>
+<user>
+    <jdbc_driver>oracle.jdbc.driver.OracleDriver</jdbc_driver>
+    <jdbc_info>jdbc:oracle:thin:@172.30.10.7:1521:fcbsd</jdbc_info>
+    <jdbc_username>staj</jdbc_username>
+    <jdbc_password>staj</jdbc_password>
+</user>
+</database_information>
